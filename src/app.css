@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 header {
     padding-top: 45px;
     padding-left: 78px;
@@ -64,7 +65,7 @@ header {
 }
 
 
-.homePage h1 {
+.homePage h3 {
     color: #2000E7;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -132,6 +133,8 @@ header {
     width: 925px;
     height: 925px;
     flex-shrink: 0;
+    margin-top: -20px;
+
 }
 
 span {
@@ -161,29 +164,26 @@ span {
     line-height: normal;
     letter-spacing: 16.8px;
     margin-left: 45px;
-
-
 }
 
-.about p {
+ .about p {
     font-family: 'Poppins', sans-serif;
     width: 415px;
     margin-bottom: 20px;
-height: 303px;
-top: 1358px;
-font-family: 'Poppins';
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
-color: #000000;
-margin-left: 45px;
+    height: 303px;
+    top: 1358px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-left: 45px;
+ }
 
-}
 
-
-.btn-3 {
+ .btn-3 {
     color: #FFF;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
@@ -198,65 +198,61 @@ margin-left: 45px;
     flex-shrink: 0;
     padding: 20px 60px;
     margin-left: 80px;
-}
+ }
 
-.progects {
+ .progects {
     background: #FFD69633;
     width: 1440px;
     height: 910px;
     top: 2277px;
     text-align: center;
     margin: 300px 0;
-}
+ }
 
-.progects h2 {
+ .progects h2 {
     color: #3B1FEA;
-font-family: 'Poppins', sans-serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 9.6px;
-padding-top: 35px;
-}
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 9.6px;
+    padding-top: 35px;
+ }
 
-.progects p {
+ .progects p {
     color: #000;
     font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 50px;
-}
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+ }
 
-.progects-full {
-    align-content: center;
-}
-
-.img-progects {
+ .img-progects {
     width: 246px;
-height: 180px;
-flex-shrink: 0;
-margin-bottom: 50px;
-margin-left: 100px;
-margin-right: 100px;
-}
-
-.progects-1 {
+    height: 180px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ 
+ .progects-1 {
     display: flex;
-}
+ }
 
-.progects-2 {
+ .progects-2 {
     display: flex;
-}
+ }
 
-.progects-3 {
+ .progects-3 {
     display: flex;
-}
+ }
 
 
-.contact {
+ .contact {
     width: 1440px;
     height: 1316px;
     flex-shrink: 0;
@@ -264,7 +260,7 @@ margin-right: 100px;
 }
 
 
-input {
+ .contact-btn {
     width: 653px;
     height: 94px;
     top: 4002px;
@@ -275,7 +271,7 @@ input {
     margin-bottom: 80px;
   }
 
-  textarea {
+  .contact-form {
     height: 265px;
     width: 653px;
     margin-left: 66px;
@@ -301,7 +297,6 @@ input {
     background: #FFF;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
     border: #fff;
-
   }
 
  .sr-only {
@@ -319,12 +314,13 @@ input {
     height: 958px;
     flex-shrink: 0;
     text-align: center;
+    margin-left: -200px;
   }
 
-  .contact-2 {
+  .contact-container {
     display: flex;
     align-items: center;
-  }
+ }
 
  .contact h2 {
     font-family: 'Poppins', sans-serif;
@@ -351,7 +347,7 @@ input {
     margin-bottom: 110px;
  }
 
- .wio {
+ .text {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
@@ -367,5 +363,114 @@ input {
     height: 809px;
     top: 4983px;
     margin-top: 300px;
+ }
+
+ .question-container {
+    display: flex;
+ }
+ 
+ .question-logo {
+    color: #0E0578;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 16.8px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    margin-top: 135px;
+ }
+
+ .question-form {
+    width: 323px;
+    height: 97px;
+    border-radius: 30px;
+    background: #000;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 25px;
+    text-align: left;
+    padding-left: 10px;
     
+ }
+
+ .question-btn {
+    width: 178px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F965FC;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 4px solid #F965FC;
+    margin-left: -50px;
+ }
+
+
+ .question-footer {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-left: 100px;
+ }
+
+ .pink {
+    display: flex;
+    align-items: center;
+ }
+
+
+ .question-footer ul li {
+    color: #000;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none;
+    padding: 20px;
+ }
+
+ h4 {
+    color: #000;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 135px;
+    padding: 20px;
+ }
+
+ .adress {
+    width: 311px;
+    height: 188px;
+    flex-shrink: 0;
+ }
+
+ .line {
+    background: #000;
+    width: 1334px;
+    height: 3px;
+    margin-left: 45px;
+    margin-bottom: 80px;
+ }
+
+ .footer {
+    color: #000;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 45px;
  }
